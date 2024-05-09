@@ -1,0 +1,10 @@
+﻿[*.{cs,vb}]
+
+# IDE0040: Add accessibility modifiers
+dotnet_style_require_accessibility_modifiers = never
+
+# IDE0140: Object creation can be simplified
+visual_basic_style_prefer_simplified_object_creation = true
+
+# IDE0058: Expression value is never used
+visual_basic_style_unused_value_expression_statement_preference = unused_local_variable
